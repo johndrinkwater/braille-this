@@ -1,0 +1,45 @@
+This is all Notch’s fault: https://twitter.com/notch/status/627206485395828736
+
+⠀⠀⠀⠀⣀⣀⣬⣥⣽⣿⣧⣤⢀⠀⠀⠀
+⠀⠀⠀⠂⢯⣧⣿⣿⣿⣿⣿⣿⣿⣿⣷⠀
+⠀⢨⣽⣾⣿⣿⣿⣿⡿⠛⠃⠉⠛⣿⣿⠀
+⠀⠘⣿⣿⣿⡟⠁⠁⠀⠀⠀⠀⠨⣟⢿⠀
+⠀⠀⠩⢿⠀⠀⠶⠾⢿⡿⠉⠿⣿⡿⢟⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣩⣦⣾⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠠⡦⣺⣿⡿⣹⡏⠀
+⠀⠀⠀⠀⠀⠀⠻⠅⢄⡀⢈⣻⠟⠀⠀⠀
+
+
+OK, this ‘script’ is probably one of the first coding lessons you could do at
+school, but I wanted something for people to Google if they weren’t so
+confident.
+
+As mentioned in the script, YOU SHOULD NOT USE THIS, Braille is a script in
+its own right, as such this script is outputting garbage that looks cute and
+may be fun on social media for a day or two, but it is honestly not on.
+
+How to use
+
+```
+john ~/code/braille-this ±:master ❯ ./braille-this.py rick-roll.png
+⡏⣭⡍⡇⢖⠃⢀⡻⠀⡏⣭⡍⡇
+⠧⠭⠥⠇⡏⣇⠟⣞⠆⠧⠭⠥⠇
+⢟⠬⠶⢍⣐⣘⢚⠃⢳⣋⠅⠩⠆
+⢄⣺⣹⢅⣁⢡⢏⠇⡍⠿⡜⢎⠇
+⡭⠬⠥⡍⢮⠎⡲⣸⡏⠍⣿⣡⠆
+⡇⠿⠇⡇⣚⣉⣫⠦⣩⠹⢟⠆⠄
+⠉⠉⠉⠁⠁⠀⠀⠈⠁⠉⠀⠈⠁
+```
+
+Or you can supply a file argument and it will write to that. It will also
+output via a redirect.
+
+```
+john ~/code/braille-this ±:master ❯ ./braille-this.py rick-roll.png output
+```
+
+```
+john ~/code/braille-this ±:master ❯ ./braille-this.py rick-roll.png > output
+```
+
+CC-0 -- jdw
